@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova - Advanced Animated Website | HexSoftwares Project</title>
+    <meta name="description" content="Experience the future of web development with stunning animations and cutting-edge technology">
+    <meta name="keywords" content="web development, animation, modern design, HexSoftwares">
+    <meta name="author" content="HexSoftwares Intern">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader with Advanced Animation -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="logo-preloader">
+                <i class="fas fa-rocket"></i>
+                <span>TechNova</span>
+            </div>
+            <div class="loader-container">
+                <div class="loader">
+                    <div class="loader-ring"></div>
+                    <div class="loader-ring"></div>
+                    <div class="loader-ring"></div>
+                    <div class="loader-ring"></div>
+                </div>
+                <div class="loader-text">
+                    <span class="loading-percentage">0%</span>
+                    <p class="loading-message">Initializing Amazing Experience...</p>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Particle System -->
+    <div id="particles-js"></div>
+
+    <!-- Background Elements -->
+    <div class="bg-elements">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+    </div>
+
+    <!-- Navigation with Advanced Features -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span class="logo-text">TechNova</span>
+                <div class="logo-glow"></div>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-text="Home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-text="About">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-text="Services">
+                        <i class="fas fa-cogs"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-text="Portfolio">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-text="Contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Theme Toggle -->
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Background -->
+        <div class="nav-bg"></div>
+    </nav>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Hero Section with Advanced Animations -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-overlay"></div>
+            <div class="hero-video-bg">
+                <!-- Animated Background using CSS -->
+                <div class="animated-bg"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Welcome to the Future</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="title-line" data-aos="fade-up" data-aos-delay="300">Create</span>
+                    <span class="title-line" data-aos="fade-up" data-aos-delay="400">Amazing</span>
+                    <span class="title-line gradient-text" data-aos="fade-up" data-aos-delay="500">Experiences</span>
+                </h1>
+
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="600">
+                    Transform your digital presence with cutting-edge web technologies, stunning animations, and innovative solutions that captivate your audience and drive results.
+                </p>
+
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="700">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                    <button class="btn btn-primary ripple-effect" data-ripple>
+                        <span class="btn-content">
+                            <i class="fas fa-rocket"></i>
+                            <span class="btn-text">Get Started</span>
+                        </span>
+                        <div class="btn-bg"></div>
+                    </button>
+
+                    <button class="btn btn-secondary glass-effect" data-modal="demo-modal">
+                        <span class="btn-content">
+                            <i class="fas fa-play"></i>
+                            <span class="btn-text">Watch Demo</span>
+                        </span>
+                        <div class="btn-bg"></div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3D Floating Elements -->
+            <div class="floating-elements">
+                <div class="floating-icon" data-float="1">
+                    <i class="fab fa-html5"></i>
+                    <div class="icon-trail"></div>
+                </div>
+                <div class="floating-icon" data-float="2">
+                    <i class="fab fa-css3-alt"></i>
+                    <div class="icon-trail"></div>
+                </div>
+                <div class="floating-icon" data-float="3">
+                    <i class="fab fa-js-square"></i>
+                    <div class="icon-trail"></div>
+                </div>
+                <div class="floating-icon" data-float="4">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="icon-trail"></div>
+                </div>
+                <div class="floating-icon" data-float="5">
+                    <i class="fas fa-cloud"></i>
+                    <div class="icon-trail"></div>
+                </div>
+                <div class="floating-icon" data-float="6">
+                    <i class="fas fa-shield-alt"></i>
+                    <div class="icon-trail"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Scroll Indicator -->
+        <div class="scroll-indicator" data-aos="fade-in" data-aos-delay="1000">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Scroll to explore</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Interactive Elements -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">About Us</span>
+                <h2 class="section-title">
+                    <span class="title-decoration"></span> Crafting Digital Excellence
+                    <span class="title-decoration"></span>
+                </h2>
+                <p class="section-description">
+                    We combine creativity with cutting-edge technology to deliver exceptional web experiences
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-grid">
+                    <!-- Interactive Tech Cards -->
+                    <div class="tech-showcase">
+                        <div class="tech-card html-card" data-aos="flip-left" data-aos-delay="100">
+                            <div class="card-header">
+                                <div class="tech-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h3>HTML5</h3>
+                                    <span class="tech-version">v5.2</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p>Semantic markup with modern standards for better accessibility and SEO.</p>
+                                <div class="tech-features">
+                                    <span class="feature-tag">Semantic Elements</span>
+                                    <span class="feature-tag">Accessibility</span>
+                                    <span class="feature-tag">SEO Optimized</span>
+                                </div>
+                            </div>
+                            <div class="card-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="95"></div>
+                                </div>
+                                <span class="progress-text">95%</span>
+                            </div>
+                            <div class="card-glow"></div>
+                        </div>
+
+                        <div class="tech-card css-card" data-aos="flip-left" data-aos-delay="200">
+                            <div class="card-header">
+                                <div class="tech-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h3>CSS3</h3>
+                                    <span class="tech-version">v3.0</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p>Advanced styling with animations, Grid, Flexbox, and modern CSS features.</p>
+                                <div class="tech-features">
+                                    <span class="feature-tag">Animations</span>
+                                    <span class="feature-tag">Grid Layout</span>
+                                    <span class="feature-tag">Flexbox</span>
+                                </div>
+                            </div>
+                            <div class="card-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="98"></div>
+                                </div>
+                                <span class="progress-text">98%</span>
+                            </div>
+                            <div class="card-glow"></div>
+                        </div>
+
+                        <div class="tech-card js-card" data-aos="flip-left" data-aos-delay="300">
+                            <div class="card-header">
+                                <div class="tech-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="tech-info">
+                                    <h3>JavaScript</h3>
+                                    <span class="tech-version">ES2023</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p>Modern JavaScript with ES6+, async/await, modules, and advanced features.</p>
+                                <div class="tech-features">
+                                    <span class="feature-tag">ES6+ Features</span>
+                                    <span class="feature-tag">Async/Await</span>
+                                    <span class="feature-tag">Modules</span>
+                                </div>
+                            </div>
+                            <div class="card-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="92"></div>
+                                </div>
+                                <span class="progress-text">92%</span>
+                            </div>
+                            <div class="card-glow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Stats -->
+                    <div class="stats-container" data-aos="fade-left" data-aos-delay="400">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <div class="stat-number" data-target="1000">0</div>
+                                    <div class="stat-label">Lines of Code</div>
+                                </div>
+                                <div class="stat-progress">
+                                    <div class="circular-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <div class="stat-number" data-target="50">0</div>
+                                    <div class="stat-label">Animations</div>
+                                </div>
+                                <div class="stat-progress">
+                                    <div class="circular-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <div class="stat-number" data-target="100">0</div>
+                                    <div class="stat-label">Responsive</div>
+                                </div>
+                                <div class="stat-progress">
+                                    <div class="circular-progress" data-progress="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Hover Effects -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">
+                    What We Offer
+                </h2>
+                <p class="section-description">
+                    Comprehensive web development services with modern technologies and best practices
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Lightning Fast</h3>
+                    <p class="service-description">
+                        Optimized performance with advanced caching, lazy loading, and code splitting techniques.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Code Optimization</li>
+                        <li><i class="fas fa-check"></i> Lazy Loading</li>
+                        <li><i class="fas fa-check"></i> CDN Integration</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Ultra Secure</h3>
+                    <p class="service-description">
+                        Enterprise-level security with HTTPS, data encryption, and protection against vulnerabilities.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> SSL Encryption</li>
+                        <li><i class="fas fa-check"></i> Data Protection</li>
+                        <li><i class="fas fa-check"></i> Security Audits</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Fully Responsive</h3>
+                    <p class="service-description">
+                        Mobile-first design approach that works perfectly across all devices and screen sizes.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Mobile-First</li>
+                        <li><i class="fas fa-check"></i> Cross-Browser</li>
+                        <li><i class="fas fa-check"></i> Touch Friendly</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Beautiful Design</h3>
+                    <p class="service-description">
+                        Modern UI/UX with smooth animations, micro-interactions, and attention to every detail.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Modern UI/UX</li>
+                        <li><i class="fas fa-check"></i> Smooth Animations</li>
+                        <li><i class="fas fa-check"></i> Custom Graphics</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">SEO Optimized</h3>
+                    <p class="service-description">
+                        Built-in SEO optimization with meta tags, structured data, and search engine best practices.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Meta Optimization</li>
+                        <li><i class="fas fa-check"></i> Structured Data</li>
+                        <li><i class="fas fa-check"></i> Fast Loading</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">User-Centered</h3>
+                    <p class="service-description">
+                        Intuitive interfaces designed with users in mind, following accessibility and usability standards.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Testing</li>
+                        <li><i class="fas fa-check"></i> Accessibility</li>
+                        <li><i class="fas fa-check"></i> Intuitive Design</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Image Gallery -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Portfolio Showcase</h2>
+                <p class="section-description">
+                    Explore our latest projects and see what we can create for you
+                </p>
+            </div>
+
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="animation">Animations</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>E-Commerce Website</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>E-Commerce Platform</h4>
+                                <p>Modern online shopping experience</p>
+                                <div class="portfolio-links">
+                                    <button class="portfolio-btn" data-lightbox="portfolio-1" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="portfolio-btn" title="Open Project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile App UI</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Mobile Banking App</h4>
+                                <p>Secure and user-friendly interface</p>
+                                <div class="portfolio-links">
+                                    <button class="portfolio-btn" data-lightbox="portfolio-2" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="portfolio-btn" title="Open Project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="animation" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-play"></i>
+                            <span>CSS Animations</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Interactive Animations</h4>
+                                <p>Engaging user interactions</p>
+                                <div class="portfolio-links">
+                                    <button class="portfolio-btn" data-lightbox="portfolio-3" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="portfolio-btn" title="Open Project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="600">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Dashboard Design</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Analytics Dashboard</h4>
+                                <p>Data visualization and insights</p>
+                                <div class="portfolio-links">
+                                    <button class="portfolio-btn" data-lightbox="portfolio-4" title="View Project">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="portfolio-btn" title="Open Project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Interactive Form -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Create Something Amazing</h2>
+                <p class="section-description">
+                    Ready to bring your ideas to life? Let's discuss your next project
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>HexSoftwares Office<br>Ahmedabad, Gujarat, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+91 9695040540</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>info@hexsoftwares.tech</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit ripple-effect">
+                            <span class="btn-content">
+                                <i class="fas fa-paper-plane"></i>
+                                <span class="btn-text">Send Message</span>
+                            </span>
+                            <div class="btn-bg"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Advanced Design -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-particles"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <i class="fas fa-rocket"></i>
+                            <span>TechNova</span>
+                        </div>
+                        <p class="footer-description">
+                            Creating digital experiences that inspire, engage, and deliver results through innovative web development.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">UI/UX Design</a></li>
+                                <li><a href="#">Mobile Apps</a></li>
+                                <li><a href="#">SEO Optimization</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat</li>
+                                <li><i class="fas fa-phone"></i> +91 9695040540</li>
+                                <li><i class="fas fa-envelope"></i> info@hexsoftwares.tech</li>
+                                <li><i class="fas fa-globe"></i> www.hexsoftwares.tech</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 TechNova. Created for HexSoftwares Internship Program. All rights reserved.</p>
+                    </div>
+                    <div class="footer-credits">
+                        <p>Built with <i class="fas fa-heart pulse-animation"></i> using HTML5, CSS3 & JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+        <div class="btn-bg"></div>
+    </button>
+
+    <!-- Modal for Demo Video -->
+    <div id="demo-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Project Demo</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play"></i>
+                        <p>Demo Video Would Play Here</p>
+                        <p class="demo-description">
+                            This animated website showcases modern web development techniques including:
+                            <br>• Advanced CSS animations with time delays
+                            <br>• Interactive JavaScript functionality
+                            <br>• Responsive design principles
+                            <br>• Performance optimization
+                            <br>• Beautiful UI/UX design
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success/Error Messages -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Analytics and Performance -->
+    <script>
+        // Performance monitoring
+        window.addEventListener('load', function() {
+            const loadTime = performance.now();
+            console.log(`🚀 Page loaded in ${Math.round(loadTime)}ms`);
+        });
+
+        // Console welcome message with ASCII art
+        console.log(`
+        ████████╗███████╗ ██████╗██╗  ██╗███╗   ██╗ ██████╗ ██╗   ██╗ █████╗ 
+        ╚══██╔══╝██╔════╝██╔════╝██║  ██║████╗  ██║██╔═══██╗██║   ██║██╔══██╗
+           ██║   █████╗  ██║     ███████║██╔██╗ ██║██║   ██║██║   ██║███████║
+           ██║   ██╔══╝  ██║     ██╔══██║██║╚██╗██║██║   ██║╚██╗ ██╔╝██╔══██║
+           ██║   ███████╗╚██████╗██║  ██║██║ ╚████║╚██████╔╝ ╚████╔╝ ██║  ██║
+           ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝
+                                                                               
+        🎯 HexSoftwares Internship Project - Animated Website
+        
+        ✨ Features Included:
+        • Advanced CSS Animations with Time Delays
+        • Interactive JavaScript Functionality  
+        • Responsive Design for All Devices
+        • Modern UI/UX with Glassmorphism Effects
+        • Performance Optimized Code
+        • SEO Friendly Structure
+        • Accessibility Features
+        • Cross-browser Compatibility
+        
+        🛠 Built with: HTML5, CSS3, JavaScript ES6+
+        📱 Mobile-First Responsive Design
+        🎨 Beautiful Color Schemes & Typography
+        ⚡ Lightning Fast Performance
+        
+        👨‍💻 Created for HexSoftwares Internship Program
+        📧 Contact: info@hexsoftwares.tech
+        🌐 Website: www.hexsoftwares.tech
+        
+        🎉 Try the Easter Eggs:
+        • Konami Code: ↑↑↓↓←→←→BA
+        • Double-click logo for surprise
+        • Hold Shift + Click on floating icons
+        `);
+    </script>
+</body>
+
+</html>
